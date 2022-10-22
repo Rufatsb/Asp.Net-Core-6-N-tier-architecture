@@ -1,0 +1,14 @@
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\bin\Debug\net6.0\Emobile-Task.Domain.deps.json
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\bin\Debug\net6.0\Emobile-Task.Domain.dll
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\bin\Debug\net6.0\Emobile-Task.Domain.pdb
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\Emobile-Task.Domain.csproj.AssemblyReference.cache
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\Emobile-Task.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\Emobile-Task.Domain.AssemblyInfoInputs.cache
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\Emobile-Task.Domain.AssemblyInfo.cs
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\Emobile-Task.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\Emobile-Task.Domain.dll
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\refint\Emobile-Task.Domain.dll
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\Emobile-Task.Domain.pdb
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\ref\Emobile-Task.Domain.dll
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\bin\Debug\net6.0\Emobile-Task.Domain.runtimeconfig.json
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Domain\obj\Debug\net6.0\Emobile-Task.Domain.genruntimeconfig.cache
