@@ -8,5 +8,6 @@ namespace Emobile_Task.Domain.Abstractions
 {
     internal interface ICityRepository
     {
+
     }
 }

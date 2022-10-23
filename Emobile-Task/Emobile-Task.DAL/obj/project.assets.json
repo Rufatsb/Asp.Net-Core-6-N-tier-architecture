@@ -782,6 +782,16 @@
             "rid": "win"
           }
         }
+      },
+      "Emobile-Task.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Emobile-Task.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Emobile-Task.Core.dll": {}
+        }
       }
     }
   },
@@ -2003,10 +2013,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Emobile-Task.Core/1.0.0": {
+      "type": "project",
+      "path": "../Emobile-Task.Core/Emobile-Task.Core.csproj",
+      "msbuildProject": "../Emobile-Task.Core/Emobile-Task.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Emobile-Task.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
@@ -2044,7 +2060,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj": {
+              "projectPath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

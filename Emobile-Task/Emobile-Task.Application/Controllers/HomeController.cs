@@ -1,5 +1,4 @@
-﻿using Emobile_Task.Application.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Emobile_Task.Application.Controllers

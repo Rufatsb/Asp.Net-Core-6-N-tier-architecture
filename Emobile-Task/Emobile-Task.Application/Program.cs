@@ -6,8 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("DBConnection").Build();
-builder.Services.AddDbContext<EmobileTaskContext>(option => option.UseSqlServer(configuration.GetConnectionString("DBConnection")));
+builder.Services.AddDbContext<EmobileTaskContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

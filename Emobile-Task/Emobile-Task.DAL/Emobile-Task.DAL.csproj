@@ -20,4 +20,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Emobile-Task.Core\Emobile-Task.Core.csproj" />
+  </ItemGroup>
+
 </Project>
