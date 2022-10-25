@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj": {}
+    "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj": {
+    "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj",
         "projectName": "Emobile-Task.Core",
-        "projectPath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj",
+        "projectPath": "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj",
         "packagesPath": "C:\\Users\\Ali Aliyev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Core\\obj\\",
+        "outputPath": "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj": {
+    "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj",
         "projectName": "Emobile-Task.DAL",
-        "projectPath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj",
+        "projectPath": "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj",
         "packagesPath": "C:\\Users\\Ali Aliyev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,8 +91,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj": {
-                "projectPath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj"
+              "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj": {
+                "projectPath": "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.Core\\Emobile-Task.Core.csproj"
               }
             }
           }

@@ -13,6 +13,8 @@ namespace Emobile_Task.DAL.Entities
 
         public string Name { get; set; } = null!;
 
-        public virtual ICollection<City> Cities { get; set; }
+        public virtual ICollection<City>? Cities { get; set; }
+        public virtual ICollection<Travel>? Travels { get; set; }
+
     }
 }

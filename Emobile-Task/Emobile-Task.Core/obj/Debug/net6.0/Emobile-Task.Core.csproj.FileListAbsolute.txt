@@ -10,3 +10,15 @@ C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Core\obj\Debu
 C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\refint\Emobile-Task.Core.dll
 C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\Emobile-Task.Core.pdb
 C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\ref\Emobile-Task.Core.dll
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\bin\Debug\net6.0\Emobile-Task.Core.deps.json
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\bin\Debug\net6.0\Emobile-Task.Core.dll
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\bin\Debug\net6.0\Emobile-Task.Core.pdb
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\Emobile-Task.Core.csproj.AssemblyReference.cache
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\Emobile-Task.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\Emobile-Task.Core.AssemblyInfoInputs.cache
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\Emobile-Task.Core.AssemblyInfo.cs
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\Emobile-Task.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\Emobile-Task.Core.dll
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\refint\Emobile-Task.Core.dll
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\Emobile-Task.Core.pdb
+C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Core\obj\Debug\net6.0\ref\Emobile-Task.Core.dll

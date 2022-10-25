@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Emobile_Task.DAL.Migrations
 {
     [DbContext(typeof(EmobileTaskContext))]
-    [Migration("20221023173327_isDeleted")]
-    partial class isDeleted
+    [Migration("20221024134423_CheckProperties")]
+    partial class CheckProperties
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

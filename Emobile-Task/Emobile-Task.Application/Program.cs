@@ -1,12 +1,14 @@
-using Emobile_Task.DAL.Data;
-using Microsoft.EntityFrameworkCore;
+using Emobile_Task.DAL.Extentions;
+using Emobile_Task.Service.Extentions;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.LoadDataLayerExtentions(builder.Configuration);
+builder.Services.LoadServiceLayerExtentions();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddDbContext<EmobileTaskContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

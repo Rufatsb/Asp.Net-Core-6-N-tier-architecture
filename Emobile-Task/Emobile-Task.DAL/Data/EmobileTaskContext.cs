@@ -48,7 +48,7 @@ namespace Emobile_Task.DAL.Data
 
                 entity.Property(e => e.StartDate).HasColumnType("date");
 
-                entity.HasOne(d => d.Cities)
+                entity.HasOne(d => d.City)
                     .WithMany(p => p.Travels)
                     .HasForeignKey(d => d.CitiesId)
                     .OnDelete(DeleteBehavior.ClientSetNull)

@@ -1,8 +1,170 @@
-﻿@{
+﻿@model TravelDto
+@{
     ViewData["Title"] = "Home Page";
 }
 
+
+<!-- Button trigger modal -->
+<button id="#myBtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+  Yeni Səyahət
+</button>
+
+<!-- Modal -->
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div  class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <form>
+
+                            <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="CountriesId" class="control-label">Ölkə</label>
+
+                                        <select asp-for="CountriesId" id="CountriesId" asp-items="ViewBag.Countries" class="form-control">
+                                          
+                                                <option>
+                                              Seçin
+                                                </option>
+                                       
+                                         
+                                        </select>
+                                      <span asp-validation-for="CountriesId"></span>
+
+                                    </div>
+                            </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+
+                                    <label asp-for="CitiesId" class="control-label">Şəhər</label>
+                                    <select asp-for="CitiesId" id="CitiesId" class="form-control">
+
+                                        <option value="-1">
+                                            Seçin
+                                        </option>
+
+
+                                    </select>
+
+                                    <span asp-validation-for="CitiesId"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+
+                                        <label asp-for="StartDate" class="control-label">Başlanğıc tarixi</label>
+                                        <input asp-for="StartDate" type="date" value="@DateTime.Today.ToString("dd,mm,yyyy")"  id="startDate"  class="form-control"/>
+                                        <span asp-validation-for="StartDate"></span>
+
+
+                                           
+
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                    <label asp-for="EndDate" class="control-label">Son tarix</label>
+
+                                    <input asp-for="EndDate" type="date" value="@DateTime.Today.ToString("dd,mm,yyyy")" id="endDate" class="form-control" />
+
+                                    <span asp-validation-for="EndDate"></span>
+
+                                </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label asp-for="Price" class="control-label">İstifadə olunan vəsait (AZN)</label>
+
+                                        <input asp-for="Price" type="number" value="@DateTime.Today.ToString("dd,mm,yyyy")" id="Price" class="form-control" />
+
+                                        <span asp-validation-for="Price"></span>
+
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">İmtina</button>
+                    <button id="AddTravel" onclick="AddTravel()" type="button" class="btn btn-primary">Yaddaş</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
+
+
+<script>
+    $(document).ready(function () {
+        $("#myBtn").click(function () {
+            $("#exampleModalLong").modal("toggle");
+        });
+        $("#CountriesId").change(function (){
+            $("#CitiesId").empty();
+            $.ajax(
+                {
+                    type: 'GET',
+                    url: '@Url.Action("LoadCity")',
+                    dataType:'json',
+                    data: { id: $("#CountriesId").val() },
+                    success:function(cities){
+                        $("#CitiesId").append('<option value="' + -1 + '">' + "Seçin" + '</option>');
+
+                        $.each(cities, function (i,city) {
+
+                            $("#CitiesId").append('<option value="' + city.value + '">' + city.text + '</option>');
+                        });
+                    },
+                    error: function(ex){
+                        alert('Failed to retrieve status.' + ex)
+                    }
+                
+
+            });
+            return false;
+        });
+
+        $("#AddTravel").click(function () {
+            var objdata = {
+                Country: $("#CountriesId").val(),
+                City: $("#CitiesId").val(),
+                Price: $("#Price").val(),
+                StartDate: $("#startDate").val(),
+                StartDate: $("#endDate").val()
+
+
+
+            };
+            $.ajax({
+                type: 'Post',
+                url: '@Url.Action("Home/AddTravel")',
+                dataType: 'json',
+                data: 'objdata',
+                contentType: 'application/xxx-www-form-urlencoded;Charset=utf-8',
+                success: function () {
+                    alert('Səyahət əlavə olundu')
+                },
+                error: function () {
+                    alert("Səyahət əlavə oluna bilmədi.")
+
+                }
+            });
+        });
+
+
+   
+    });
+</script>

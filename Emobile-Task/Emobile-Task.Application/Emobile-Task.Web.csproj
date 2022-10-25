@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Emobile-Task.DAL\Emobile-Task.DAL.csproj" />
+    <ProjectReference Include="..\Emobile-Task.Service\Emobile-Task.Service.csproj" />
   </ItemGroup>
 
 </Project>

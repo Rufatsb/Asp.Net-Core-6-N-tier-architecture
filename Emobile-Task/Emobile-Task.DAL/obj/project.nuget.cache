@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CDlQYJ7tU25eT7YPWtdDA+lfLVMEm31C/i02BjXvPER8yLKkj+T+hiUPMiAeyfVTN5QH8cGohzr0lkkbJO7Jcg==",
+  "dgSpecHash": "5OISBRohjA9hVf9cQWPZ8iz2HXkxWjzWuzmten91p++J+ESxeiqGGNEyGYm+U37LgAfXqe9gtuNY758RLEieAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj",
+  "projectFilePath": "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

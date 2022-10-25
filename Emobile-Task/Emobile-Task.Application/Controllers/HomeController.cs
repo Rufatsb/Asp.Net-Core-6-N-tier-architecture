@@ -1,31 +1,49 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+﻿using Emobile_Task.DAL.DTOs.Cities;
+using Emobile_Task.DAL.DTOs.Countries;
+using Emobile_Task.DAL.DTOs.Travels;
+using Emobile_Task.Service.Services.Abstractions;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace Emobile_Task.Application.Controllers
+namespace Emobile_Task.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ICountryService _countryService;
+        private readonly ICityService _cityService;
+        private readonly ITravelService _travelService;
 
-        public HomeController(ILogger<HomeController> logger)
+
+
+        public HomeController(ICountryService countryService, ICityService cityService, ITravelService travelService)
         {
-            _logger = logger;
+            _countryService = countryService;
+            _cityService = cityService;
+            _travelService = travelService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            List<CountryDto>  Countries = await _countryService.GetAllCountryAsync();
+           ViewBag.Countries = new SelectList(Countries, "Id","Name");
+          var Travel =new TravelDto();
+            return View(Travel);
         }
 
-        public IActionResult Privacy()
+        public async Task<JsonResult> LoadCity (int Id)
         {
-            return View();
+            List<CityDto> city = await _cityService.GetCountryofCitiesAsync(Id);
+            return Json(new SelectList(city, "Id","Name"));
         }
 
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public JsonResult AddTravel(TravelDto travel)
+        {
+            _travelService.AddTravelAsync(travel);
+
+            return Json("Səyahət əlavə olundu.");
+
+        }
     }
 }

@@ -80,6 +80,9 @@ namespace Emobile_Task.DAL.Migrations
                     b.Property<int>("CitiesId")
                         .HasColumnType("int");
 
+                    b.Property<int>("CountriesId")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("date");
 
@@ -95,6 +98,8 @@ namespace Emobile_Task.DAL.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CitiesId");
+
+                    b.HasIndex("CountriesId");
 
                     b.ToTable("Travel", (string)null);
                 });
@@ -112,13 +117,21 @@ namespace Emobile_Task.DAL.Migrations
 
             modelBuilder.Entity("Emobile_Task.DAL.Entities.Travel", b =>
                 {
-                    b.HasOne("Emobile_Task.DAL.Entities.City", "Cities")
+                    b.HasOne("Emobile_Task.DAL.Entities.City", "City")
                         .WithMany("Travels")
                         .HasForeignKey("CitiesId")
                         .IsRequired()
                         .HasConstraintName("FK_Travel_Cities");
 
-                    b.Navigation("Cities");
+                    b.HasOne("Emobile_Task.DAL.Entities.Country", "Countries")
+                        .WithMany("Travels")
+                        .HasForeignKey("CountriesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("City");
+
+                    b.Navigation("Countries");
                 });
 
             modelBuilder.Entity("Emobile_Task.DAL.Entities.City", b =>
@@ -129,6 +142,8 @@ namespace Emobile_Task.DAL.Migrations
             modelBuilder.Entity("Emobile_Task.DAL.Entities.Country", b =>
                 {
                     b.Navigation("Cities");
+
+                    b.Navigation("Travels");
                 });
 #pragma warning restore 612, 618
         }

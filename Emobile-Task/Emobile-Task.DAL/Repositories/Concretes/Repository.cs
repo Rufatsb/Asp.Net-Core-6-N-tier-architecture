@@ -84,6 +84,8 @@ namespace Emobile_Task.DAL.Repositories.Concretes
 
         }
 
+      
+
 
     }
 }
