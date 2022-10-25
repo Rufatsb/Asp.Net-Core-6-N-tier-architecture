@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EsI1WcM2Y5iez3k5EQRFjfM6mw7v1uZGM3Qo+6WhbWjbNs09bW8ZWczOr3LDNboXN9VTPDe7u78zzzNboVTaEQ==",
+  "dgSpecHash": "rz9rAgNavIpx+DVRDacTT3o24wc+gZOm2G+5iCeJmgrz1bzJDooeM1Kl4+5FH7gAHK0p4b8j/3Cb8ZeiB1Joig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ali Aliyev\\Desktop\\EmobileTask-main\\EmobileTask-main\\Emobile-Task\\Emobile-Task.Service\\Emobile-Task.Service.csproj",
+  "projectFilePath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Service\\Emobile-Task.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

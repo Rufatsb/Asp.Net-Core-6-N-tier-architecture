@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4iTEcAOTIHUwScAGg6fVE7jShgs3+8oa/T17qSNhAZrxAI+//j5RkRHE6CNchOMSgNaPn3jggj6sHcfX2PMcFA==",
+  "dgSpecHash": "8Z/v3wwEG/ioY2n4yKKzJEUD7LpatRink3Q4NOPCsVgaGiSe1v1sIvjEGzMjvqKft/vK3QJAvxqndCv0K3BNmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Domain\\Emobile-Task.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.Application\\Emobile-Task.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ali Aliyev\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Ali Aliyev\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Ali Aliyev\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Ali Aliyev\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
