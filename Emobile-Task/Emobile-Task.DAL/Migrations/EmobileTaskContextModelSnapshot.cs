@@ -45,7 +45,7 @@ namespace Emobile_Task.DAL.Migrations
 
                     b.HasIndex("CountriesId");
 
-                    b.ToTable("Cities");
+                    b.ToTable("Cities", (string)null);
                 });
 
             modelBuilder.Entity("Emobile_Task.DAL.Entities.Country", b =>
@@ -66,7 +66,7 @@ namespace Emobile_Task.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Countries");
+                    b.ToTable("Countries", (string)null);
                 });
 
             modelBuilder.Entity("Emobile_Task.DAL.Entities.Travel", b =>

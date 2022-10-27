@@ -5,11 +5,11 @@ VisualStudioVersion = 17.3.32708.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emobile-Task.Service", "Emobile-Task.Service\Emobile-Task.Service.csproj", "{ED639A2E-7607-4B9A-A756-38C5DC51EDFC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emobile-Task.Web", "Emobile-Task.Application\Emobile-Task.Web.csproj", "{19093B48-D4FC-466E-A411-5C8D86DD7E67}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emobile-Task.DAL", "Emobile-Task.DAL\Emobile-Task.DAL.csproj", "{EBBDF3DF-61F1-477C-8C31-1D0D98B89205}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emobile-Task.Core", "Emobile-Task.Core\Emobile-Task.Core.csproj", "{021496F8-FB93-4168-B807-AC3617292D75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emobile-Task.Core", "Emobile-Task.Core\Emobile-Task.Core.csproj", "{021496F8-FB93-4168-B807-AC3617292D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emobile-Task.Web", "Emobile-Task.Web\Emobile-Task.Web.csproj", "{C98855BC-2B5D-44E8-8546-DE149CD8D3AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{ED639A2E-7607-4B9A-A756-38C5DC51EDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED639A2E-7607-4B9A-A756-38C5DC51EDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED639A2E-7607-4B9A-A756-38C5DC51EDFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{19093B48-D4FC-466E-A411-5C8D86DD7E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19093B48-D4FC-466E-A411-5C8D86DD7E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19093B48-D4FC-466E-A411-5C8D86DD7E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19093B48-D4FC-466E-A411-5C8D86DD7E67}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EBBDF3DF-61F1-477C-8C31-1D0D98B89205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EBBDF3DF-61F1-477C-8C31-1D0D98B89205}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBBDF3DF-61F1-477C-8C31-1D0D98B89205}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{021496F8-FB93-4168-B807-AC3617292D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{021496F8-FB93-4168-B807-AC3617292D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{021496F8-FB93-4168-B807-AC3617292D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98855BC-2B5D-44E8-8546-DE149CD8D3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98855BC-2B5D-44E8-8546-DE149CD8D3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98855BC-2B5D-44E8-8546-DE149CD8D3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98855BC-2B5D-44E8-8546-DE149CD8D3AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

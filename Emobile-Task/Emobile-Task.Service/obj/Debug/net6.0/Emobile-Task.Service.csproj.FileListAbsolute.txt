@@ -31,3 +31,8 @@ C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobi
 C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Service\obj\Debug\net6.0\Emobile-Task.Service.csproj.CopyComplete
 C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Service\obj\Debug\net6.0\Emobile-Task.Service.genruntimeconfig.cache
 C:\Users\Ali Aliyev\Desktop\EmobileTask-main\EmobileTask-main\Emobile-Task\Emobile-Task.Service\obj\Debug\net6.0\ref\Emobile-Task.Service.dll
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Service\bin\Debug\net6.0\Emobile-Task.Core.dll
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Service\bin\Debug\net6.0\Emobile-Task.DAL.dll
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Service\bin\Debug\net6.0\Emobile-Task.DAL.pdb
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Service\bin\Debug\net6.0\Emobile-Task.Core.pdb
+C:\Users\Ali Aliyev\Desktop\emobile task\Emobile-Task\Emobile-Task.Service\obj\Debug\net6.0\Emobile-Task.Service.csproj.CopyComplete

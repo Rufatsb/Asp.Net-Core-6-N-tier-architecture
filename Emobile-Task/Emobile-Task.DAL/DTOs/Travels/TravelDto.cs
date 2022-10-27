@@ -1,10 +1,7 @@
-﻿using Emobile_Task.DAL.Entities;
-using System;
-using System.Collections.Generic;
+﻿using Emobile_Task.DAL.DTOs.Cities;
+using Emobile_Task.DAL.DTOs.Countries;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Emobile_Task.DAL.DTOs.Travels
 {
@@ -20,7 +17,10 @@ namespace Emobile_Task.DAL.DTOs.Travels
         public DateTime EndDate { get; set; }
         [Required]
         public int CitiesId { get; set; }
+
         public int CountriesId { get; set; }
+        public virtual CityDto? Cities{ get; set; } = null!;
+        public virtual CountryDto? Countries { get; set; } = null!;
         public bool IsDeleted
         {
             get; set;

@@ -24,16 +24,17 @@ namespace Emobile_Task.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            List<CountryDto>  Countries = await _countryService.GetAllCountryAsync();
-           ViewBag.Countries = new SelectList(Countries, "Id","Name");
-          var Travel =new TravelDto();
-            return View(Travel);
+           
+            ViewBag.Countries = await _countryService.GetAllCountryAsync();
+            List<TravelDto>  Travels = await _travelService.GetAllTravelsAsync();
+            
+            return View(Travels);
         }
 
-        public async Task<JsonResult> LoadCity (int Id)
+        public async Task<JsonResult> LoadCity(int Id)
         {
             List<CityDto> city = await _cityService.GetCountryofCitiesAsync(Id);
-            return Json(new SelectList(city, "Id","Name"));
+            return Json(new SelectList(city, "Id", "Name"));
         }
 
         [HttpPost]
