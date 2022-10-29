@@ -1,5 +1,6 @@
 ﻿using Emobile_Task.DAL.DTOs.Cities;
 using Emobile_Task.DAL.DTOs.Countries;
+using FluentValidation;
 using System.ComponentModel.DataAnnotations;
 
 
@@ -9,8 +10,9 @@ namespace Emobile_Task.DAL.DTOs.Travels
     {
         public int Id { get; set; }
         [Required]
-        [Range(1, 1000000000000)]
         public int Price { get; set; }
+        
+
         [Required]
         public DateTime StartDate { get; set; }
         [Required]
@@ -26,5 +28,17 @@ namespace Emobile_Task.DAL.DTOs.Travels
             get; set;
         }
 
+    }
+    public class TravelValidator: AbstractValidator<TravelDto> {
+        public TravelValidator()
+        {
+            RuleFor(x => x.StartDate <= x.EndDate);
+            RuleFor(x => x.Price > 0);
+            
+
+
+
         }
     }
+
+}

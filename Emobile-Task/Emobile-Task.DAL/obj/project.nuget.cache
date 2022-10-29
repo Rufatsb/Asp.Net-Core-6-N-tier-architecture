@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CDlQYJ7tU25eT7YPWtdDA+lfLVMEm31C/i02BjXvPER8yLKkj+T+hiUPMiAeyfVTN5QH8cGohzr0lkkbJO7Jcg==",
+  "dgSpecHash": "NMBXxRPEOAZPsVi0KM3KYeYUimvDaod8RKR5dkEERCPVELGmVwznGdShREWJyT56dRlP/vJGjapOZpFTffMUPA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ali Aliyev\\Desktop\\emobile task\\Emobile-Task\\Emobile-Task.DAL\\Emobile-Task.DAL.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ali Aliyev\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\Ali Aliyev\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Ali Aliyev\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ali Aliyev\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

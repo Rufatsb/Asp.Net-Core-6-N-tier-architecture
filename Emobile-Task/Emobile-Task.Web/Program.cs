@@ -1,5 +1,6 @@
 using Emobile_Task.DAL.Extentions;
 using Emobile_Task.Service.Extentions;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,7 @@ builder.Services.LoadDataLayerExtentions(builder.Configuration);
 builder.Services.LoadServiceLayerExtentions();
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddFluentValidation();
 
 var app = builder.Build();
 

@@ -1,6 +1,7 @@
 ﻿using Emobile_Task.DAL.DTOs.Cities;
 using Emobile_Task.DAL.DTOs.Countries;
 using Emobile_Task.DAL.DTOs.Travels;
+using Emobile_Task.DAL.Entities;
 using Emobile_Task.Service.Services.Abstractions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -12,14 +13,18 @@ namespace Emobile_Task.Web.Controllers
         private readonly ICountryService _countryService;
         private readonly ICityService _cityService;
         private readonly ITravelService _travelService;
+        private readonly ILoggerService _loggerservice;
 
 
 
-        public HomeController(ICountryService countryService, ICityService cityService, ITravelService travelService)
+
+        public HomeController(ICountryService countryService, ICityService cityService, ITravelService travelService, ILoggerService loggerservice)
         {
             _countryService = countryService;
             _cityService = cityService;
             _travelService = travelService;
+            _loggerservice = loggerservice;
+            
         }
 
         public async Task<IActionResult> Index()
@@ -27,7 +32,7 @@ namespace Emobile_Task.Web.Controllers
            
             ViewBag.Countries = await _countryService.GetAllCountryAsync();
             List<TravelDto>  Travels = await _travelService.GetAllTravelsAsync();
-            
+         
             return View(Travels);
         }
 
@@ -42,7 +47,7 @@ namespace Emobile_Task.Web.Controllers
         public JsonResult AddTravel(TravelDto travel)
         {
             _travelService.AddTravelAsync(travel);
-
+            _loggerservice.InfoPostedData("Yaradıldı", travel);
             return Json("Səyahət əlavə olundu.");
 
         }

@@ -19,10 +19,12 @@ namespace Emobile_Task.Service.Extentions
     {
         public static IServiceCollection LoadServiceLayerExtentions(this IServiceCollection services)
         {
-            var assembly = Assembly.GetExecutingAssembly();
+            Assembly assembly = Assembly.GetExecutingAssembly();
             services.AddScoped<ICountryService, CountryService>();
             services.AddScoped<ICityService, CityService>();
             services.AddScoped<ITravelService, TravelService>();
+            services.AddScoped<ILoggerService, LoggerService>();
+            //services.AddTransient(TravelDTO,)
             services.AddAutoMapper(assembly);
 
             return services;
